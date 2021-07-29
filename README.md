@@ -1,6 +1,6 @@
 # shell-gang-wisdom
 
-Neat oneliners and tricks gathered from daily shell work at puzzle.
+Neat oneliners and tricks gathered from day to day shell work at puzzle.
 
 # Are you a Puzzle member?
 
