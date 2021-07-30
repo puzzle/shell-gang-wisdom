@@ -13,5 +13,19 @@ Visit the channel `#shell-gang` to meet the gang. If you're not yet a Puzzle mem
 Add this to your .bashrc
 
     alias copy='ruby -e "print readlines.join.chomp" | xclip -sel clip'
-    
+
 and use it like `pwd | copy`.
+
+# Bash Tricks
+## Get the previous commands last argument
+example:
+```
+$ mkdir ~/.ssh
+$ chmod 0700 !$
+```
+## Rerun the last command
+example:
+```
+$ apt install cowsay
+$ sudo !!
+```
